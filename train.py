@@ -4,7 +4,7 @@ import keras
 import keras.losses
 import keras.optimizers
 import tensorflow as tf
-from network import VGG11
+from models.vggnet import VGG11
 from dataset import DataSequence, DataGenerator
 
 using_gpu_index = 0  # 使用的 GPU 号码
